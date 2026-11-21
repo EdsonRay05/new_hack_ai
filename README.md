@@ -1,6 +1,20 @@
 # IntuitionLens
 
-Turn a math or physics problem into a short animation and a worked solution.
+**See what the equation means, then learn how to solve it.**
+
+IntuitionLens is a local STEM learning prototype that pairs a student's own problem with a short animation and a worked explanation: **formula → why it applies → detailed calculations → final answer**.
+
+## Research context
+
+- **The Philippine learning challenge:** In PISA 2022, **16% of participating Filipino 15-year-olds** reached mathematics proficiency Level 2 or higher, compared with 69% across OECD countries. This provides context for the need to strengthen mathematical understanding; it is not a calculus-specific assessment. [OECD, Philippines country note (2023)](https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/philippines_a0882a2d-en.html)
+- **Evidence from a Philippine classroom:** A quasi-experimental study of **60 Grade 11 STEM learners** at Valencia National High School in Ormoc City reported higher conic-section post-test scores with GeoGebra-assisted instruction than with traditional instruction. The study was limited to a short intervention and a teacher-made assessment. [Lumanta (2026), *Southeast Asian Journal of STEM Education*, pp. 83–95](https://www.seameo-stemed.org/wp-content/uploads/2023/12/SAJSE-Vol6-No1_Jan-2026.pdf#page=90)
+- **Broader evidence for visual learning:** A meta-analysis of **41 studies involving 10,562 learners** found a positive average effect of visualization interventions on mathematics learning, with substantial variation across studies. [Schoenherr, Strohmaier & Schukajlow (2024), *Educational Research Review*](https://doi.org/10.1016/j.edurev.2024.100639)
+
+**Our design response:** connect equations with visible mathematical behavior, then explain the rules and intermediate steps used to solve the problem.
+
+*These findings motivate the approach; they do not demonstrate that IntuitionLens improves learning. The prototype still needs evaluation with students, including checks of mathematical accuracy and understanding.*
+
+## What you can do
 
 - Upload a photo (JPG/PNG/WebP, up to 10 MB), type a problem, or try a sample.
 - Get a video, visual intuition, formulas, explanations, and line-by-line calculations.
