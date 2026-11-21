@@ -1,0 +1,26 @@
+.intuition-callout{margin:24px 0;padding:20px;border:1px solid #355d54;border-radius:12px;background:linear-gradient(120deg,#183b334f,#14242f)}
+.intuition-callout h4,.solution-heading,.final-answer h4{font-size:16px;font-weight:600;margin:0 0 10px;color:var(--mint)}
+.intuition-callout p{margin:0;color:#d2dfeb;line-height:1.85;font-size:16px}
+.solution-heading{color:var(--text);margin:26px 0 16px}
+.steps{display:grid;gap:14px;margin:0 0 24px}
+.solution-step-card{padding:20px;background:#15202e;border:1px solid #2c3b4e;border-radius:10px;font-size:16px;min-width:0}
+.step-badge{display:inline-block;margin-bottom:12px;padding:3px 10px;border-radius:6px;border:1px solid #365b50;background:#8ae7c913;color:var(--mint);font-size:13px;font-weight:600}
+.step-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:18px}
+.step-header .step-badge{margin:0;white-space:nowrap}
+.steps .step-header h5{margin:0;flex:1;min-width:0;font-weight:700}
+.formula-callout{padding:16px;border:1px solid #4c5275;border-radius:8px;background:#20283c;margin-bottom:18px}
+.step-field-label{font-size:14px;font-weight:650;color:#d3d0ff;margin-bottom:9px}
+.step-formula{display:block;font-family:ui-monospace,"Cascadia Code",Consolas,monospace;font-size:15px;color:#eeeaff;line-height:1.85;white-space:pre-wrap;overflow-wrap:anywhere}
+.why-formula-label{font-size:14px;font-weight:650;color:var(--mint);margin:16px 0 6px}
+.steps .step-why{margin:0;color:#c3d0e0;font-size:16px;line-height:1.8}
+.detailed-work .step-field-label{color:#aebed2}
+.steps h5{font-size:16px;line-height:1.5;color:#e9f0f8;margin:0 0 9px;font-weight:600}
+.steps p{margin:0 0 13px;font-size:16px;line-height:1.8;color:#b7c7d9}
+.math-work{padding:12px 14px;border:1px solid #3c4a64;border-radius:7px;background:#0c1522;color:#d6d1ff;font-size:16px;line-height:1.8;font-family:ui-monospace,"Cascadia Code",Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+.step-walkthrough{font:inherit}
+.whitespace-pre-line,.step-walkthrough{white-space:pre-line}
+.final-answer{padding:20px;border:1px solid #568e7a;border-radius:11px;background:#17362d;margin:22px 0}
+.final-answer h4{font-size:14px;letter-spacing:.5px}
+.final-answer p{font-size:19px;font-weight:650;color:#e3fff3;margin:0;line-height:1.65;overflow-wrap:anywhere}
+.lesson-title-row h3{line-height:1.45;overflow-wrap:anywhere}
+@media(max-width:480px){.lesson{padding:18px}.intuition-callout,.final-answer{padding:16px}.solution-step-card{padding:16px}.math-work{padding:10px;font-size:15px}}

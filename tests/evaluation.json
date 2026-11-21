@@ -1,0 +1,12 @@
+[
+  {"category":"derivative_tangent","problem":"For f(x)=x^2, visualize the slope at x=2.","expected":"Fixed point (2,4), limiting slope 4.","visual":"Secant approaches tangent through fixed point."},
+  {"category":"derivative_tangent","problem":"For f(x)=3x^2, visualize the slope at x=1.","expected":"Fixed point (1,3), limiting slope 6.","visual":"Curve, labels, and secant use changed coefficient and point."},
+  {"category":"integral_riemann","problem":"Approximate integral of x^2 from 0 to 2 with left rectangles.","expected":"Left sums below 8/3 approach it as dx shrinks.","visual":"Rectangles refine inside [0,2]."},
+  {"category":"integral_riemann","problem":"Visualize integral of 2x from 0 to 3.","expected":"Area 9 square units.","visual":"Line rather than stock parabola; interval ends at 3."},
+  {"category":"projectile_motion","problem":"Launch vx=8 m/s, vy=6 m/s from ground; g=9.8, no air resistance.","expected":"Flight 1.22449 s, range 9.79592 m.","visual":"Horizontal component fixed; vertical component reverses."},
+  {"category":"projectile_motion","problem":"Launch vx=5 m/s, vy=10 m/s from ground; g=10, no air resistance.","expected":"Flight 2 s, peak 5 m, range 10 m.","visual":"Axis ranges accommodate peak; all labels use supplied values."},
+  {"category":"vector_addition","problem":"Add (3,1) and (1,2).","expected":"Result (4,3), length 5, angle 36.8699 degrees.","visual":"Second vector moves without changing direction or length."},
+  {"category":"vector_addition","problem":"Add (-2,3) and (2,1).","expected":"Result (0,4), length 4, angle 90 degrees.","visual":"Negative x visible and resultant vertical."},
+  {"category":"trig_unit_circle","problem":"Trace sine and cosine around a full unit circle.","expected":"Sine begins at 0, cosine at 1; period 2pi.","visual":"Consistent coordinate colors and full rotation."},
+  {"category":"trig_unit_circle","problem":"Explain sin(pi/6) and cos(pi/6) on the unit circle.","expected":"Sine 0.5; cosine sqrt(3)/2, about 0.866025.","visual":"Final radius stops at 30 degrees; projections agree."}
+]
